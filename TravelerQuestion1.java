@@ -26,7 +26,7 @@ class Bike implements Ivehicle{
     }
 }
 /*here traveler class is tightly coupled with
-* car class is car class got failed then traveler
+* car class is Bike class got failed then traveler
 * can not start the trip*/
 public class TravelerQuestion1 {
     Ivehicle vehicle = new Bike();
